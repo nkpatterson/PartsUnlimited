@@ -5,5 +5,5 @@ task's MSBuild Arguments field.
 
 ```
 /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true 
-/p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactstagingdirectory)\\"
+/p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactstagingdirectory)"
 ```
